@@ -15,9 +15,10 @@ extern "C" {
  * Signature: (J)V
  */
 
-void detectfun(Mat& frame);
+//void detectfun(Mat& frame);
+double modifiedLaplacian(Mat& src);
 
-JNIEXPORT void JNICALL Java_com_example_anannyauberoi_testingcamtwo_cvClass_detect
+JNIEXPORT jstring JNICALL Java_com_example_anannyauberoi_testingcamtwo_cvClass_detect
   (JNIEnv *, jclass, jlong);
 
 #ifdef __cplusplus

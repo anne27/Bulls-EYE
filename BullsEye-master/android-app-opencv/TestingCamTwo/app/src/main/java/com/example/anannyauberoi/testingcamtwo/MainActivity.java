@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
             switch (status) {
                 case BaseLoaderCallback.SUCCESS: {
                     javaCameraView.enableView();
+                    //
                     mRgba=new Mat();
                     //break;
                 } break;
@@ -100,7 +101,9 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         //Imgproc.Canny(mRgba,imgCanny,50,150);
         //Imgproc.cvtColor(mRgba,imgGray,Imgproc.COLOR_RGB2GRAY);
         //return imgCanny;
-        cvClass.detect(mRgba.getNativeObjAddr());
+
+        String ans=cvClass.detect(mRgba.getNativeObjAddr());
+        Log.i(TAG,ans);
         return mRgba;
     }
 }

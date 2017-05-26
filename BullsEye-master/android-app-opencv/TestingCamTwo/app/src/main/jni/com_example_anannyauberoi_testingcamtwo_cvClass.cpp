@@ -1,12 +1,22 @@
 #include "com_example_anannyauberoi_testingcamtwo_cvClass.h"
+#include <string>
+#include <sstream>
 
-JNIEXPORT void JNICALL Java_com_example_anannyauberoi_testingcamtwo_cvClass_detect
-  (JNIEnv *, jclass, jlong addrRgba)
+
+JNIEXPORT jstring JNICALL Java_com_example_anannyauberoi_testingcamtwo_cvClass_detect
+  (JNIEnv *env, jclass obj, jlong addrRgba)
   {
   Mat& frame=*(Mat*)addrRgba;
-  detectfun(frame);
-  }
+  double x=modifiedLaplacian(frame);
+  std::ostringstream convert;
+  convert << x;
+  std::string Result=convert.str();
+  const char *finalResult = Result.c_str();
 
+  return env->NewStringUTF(finalResult);
+  //detectfun(frame);
+  }
+/*
   void detectfun(Mat& frame)
   {
   String face_cascade_name = "/storage/emulated/0/xml/haarcascade_frontalface_alt.xml";
@@ -45,6 +55,36 @@ JNIEXPORT void JNICALL Java_com_example_anannyauberoi_testingcamtwo_cvClass_dete
       circle( frame, center, radius, Scalar( 255, 0, 0 ), 4, 8, 0 );
     }
   }
+*/
+
+/*double modifiedLaplacian(Mat& src)
+{
+Mat src_gray;
+    cvtColor( src, src_gray, CV_BGR2GRAY );
+    Mat M = (Mat_<double>(3, 1) << -1, 2, -1);
+    Mat G = getGaussianKernel(3, -1, CV_64F);
+    Mat Lx;
+    sepFilter2D(src_gray, Lx, CV_64F, M, G);
+    Mat Ly;
+    sepFilter2D(src_gray, Ly, CV_64F, G, M);
+    Mat FM = abs(Lx) + abs(Ly);
+    double focusMeasure = mean(FM).val[0];
+    return focusMeasure;
+}*/
 
 
-  }
+double modifiedLaplacian(Mat& src)
+{
+Mat src_gray;
+    cvtColor( src, src_gray, CV_BGR2GRAY );
+    Mat M = (Mat_<double>(3, 1) << -1, 2, -1);
+    Mat G = getGaussianKernel(3, -1, CV_64F);
+    Mat Lx;
+    sepFilter2D(src_gray, Lx, CV_64F, M, G);
+    Mat Ly;
+    sepFilter2D(src_gray, Ly, CV_64F, G, M);
+    Mat FM = abs(Lx) + abs(Ly);
+    double focusMeasure = mean(FM).val[0];
+    return focusMeasure;
+    //return 2.2;
+}
