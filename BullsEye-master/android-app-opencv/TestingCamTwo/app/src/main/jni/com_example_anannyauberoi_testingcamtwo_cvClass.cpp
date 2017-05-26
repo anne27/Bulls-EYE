@@ -2,18 +2,23 @@
 #include <string>
 #include <sstream>
 
+/*
+    Create a function called detect which returns the sharpness of the frame.
+    Mat& frame denotes the current frame.
+*/
 
 JNIEXPORT jstring JNICALL Java_com_example_anannyauberoi_testingcamtwo_cvClass_detect
   (JNIEnv *env, jclass obj, jlong addrRgba)
   {
   Mat& frame=*(Mat*)addrRgba;
   double x=modifiedLaplacian(frame);
+  //Convert double to String so that it can be returned to the Java environment.
   std::ostringstream convert;
   convert << x;
   std::string Result=convert.str();
   const char *finalResult = Result.c_str();
 
-  return env->NewStringUTF(finalResult);
+  return env->NewStringUTF(finalResult);        //finalResult is the char* version of double.
   //detectfun(frame);
   }
 /*
@@ -75,9 +80,14 @@ Mat src_gray;
 
 double modifiedLaplacian(Mat& src)
 {
-Mat src_gray;
-    cvtColor( src, src_gray, CV_BGR2GRAY );
-    Mat M = (Mat_<double>(3, 1) << -1, 2, -1);
+/*
+    This function returns a double number which denotes the sharpness of current frame.
+    The higher the number, the sharper the image.
+    Other focus measure functions can be tried here.
+*/
+Mat src_gray;                                   //Declare a matrix to store grayscale image.
+    cvtColor( src, src_gray, CV_BGR2GRAY );     //Convert image to grayscale.
+    Mat M = (Mat_<double>(3, 1) << -1, 2, -1);  //Now apply the focus measure function on it.
     Mat G = getGaussianKernel(3, -1, CV_64F);
     Mat Lx;
     sepFilter2D(src_gray, Lx, CV_64F, M, G);
@@ -86,5 +96,4 @@ Mat src_gray;
     Mat FM = abs(Lx) + abs(Ly);
     double focusMeasure = mean(FM).val[0];
     return focusMeasure;
-    //return 2.2;
 }

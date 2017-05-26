@@ -29,8 +29,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         public void onManagerConnected(int status) {
             switch (status) {
                 case BaseLoaderCallback.SUCCESS: {
-                    javaCameraView.enableView();
-                    //
+                    javaCameraView.enableView();        //Start the camera.
                     mRgba=new Mat();
                     //break;
                 } break;
@@ -43,12 +42,15 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         }
     };
 
+    //The below function denotes the state of the app on creation.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Open camera when the app starts.
+        //Should be declared in some other activity when merged to the Dipen's Android app.
         javaCameraView= (JavaCameraView)findViewById(R.id.java_camera_view);
-        javaCameraView.setVisibility(SurfaceView.VISIBLE);
+        javaCameraView.setVisibility(SurfaceView.VISIBLE);      //Enable surface view of camera.
         javaCameraView.setCvCameraViewListener(this);
     }
 
@@ -101,9 +103,9 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         //Imgproc.Canny(mRgba,imgCanny,50,150);
         //Imgproc.cvtColor(mRgba,imgGray,Imgproc.COLOR_RGB2GRAY);
         //return imgCanny;
-
         String ans=cvClass.detect(mRgba.getNativeObjAddr());
-        Log.i(TAG,ans);
+        //ans is the sharpness value returned by the native function in String format.
+        Log.i(TAG,ans);             //Display the sharpness value on Logcat.
         return mRgba;
     }
 }
