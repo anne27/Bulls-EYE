@@ -8,7 +8,10 @@ OPENCV_INSTALL_MODULES := on
 OPENCV_LIB_TYPE := SHARED
 include $(OPENCVROOT)/sdk/native/jni/OpenCV.mk
 
-LOCAL_SRC_FILES := com_example_anannyauberoi_testingcamtwo_cvClass.cpp
+LOCAL_SRC_FILES := \
+    com_example_anannyauberoi_testingcamtwo_cvClass.cpp \
+    com_example_anannyauberoi_testingcamtwo_OpenClass.cpp
+
 LOCAL_LDLIBS += -llog
 LOCAL_MODULE := MyLibs
 

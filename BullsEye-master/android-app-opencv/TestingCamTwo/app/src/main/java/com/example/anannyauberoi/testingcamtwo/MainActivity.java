@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
     public static String TAG="MainActivity";
     JavaCameraView javaCameraView;
     Mat mRgba;
+
+    //static block is the first block that is executed when the Java code starts.
     static{
         System.loadLibrary("MyLibs");
         if (OpenCVLoader.initDebug())
@@ -104,6 +106,8 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         //Imgproc.cvtColor(mRgba,imgGray,Imgproc.COLOR_RGB2GRAY);
         //return imgCanny;
         String ans=cvClass.detect(mRgba.getNativeObjAddr());
+        //OpenClass.detectIris(mRgba.getNativeObjAddr());
+        //Uncomment the above line when the iris detection algorithm has been written into the cpp file.
         //ans is the sharpness value returned by the native function in String format.
         Log.i(TAG,ans);             //Display the sharpness value on Logcat.
         return mRgba;

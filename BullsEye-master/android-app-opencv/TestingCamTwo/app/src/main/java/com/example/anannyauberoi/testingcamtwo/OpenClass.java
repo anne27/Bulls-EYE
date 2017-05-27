@@ -5,4 +5,5 @@ package com.example.anannyauberoi.testingcamtwo;
  */
 public class OpenClass {
     //public native static void faceDetect(long addrRgba);
+    public native static void detectIris(long addrRgba);
 }
