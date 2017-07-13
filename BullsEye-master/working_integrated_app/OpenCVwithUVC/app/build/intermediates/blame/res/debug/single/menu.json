@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\success.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\menu\\success.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\suc.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\menu\\suc.xml"
+    }
+]

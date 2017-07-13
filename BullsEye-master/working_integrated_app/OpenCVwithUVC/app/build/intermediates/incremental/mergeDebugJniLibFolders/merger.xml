@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Android\OpenCVwithUVC\app\src\main\jniLibs"><file name="armeabi-v7a/libLibsCV.so" path="C:\Android\OpenCVwithUVC\app\src\main\jniLibs\armeabi-v7a\libLibsCV.so"/><file name="armeabi-v7a/libopencv_java3.so" path="C:\Android\OpenCVwithUVC\app\src\main\jniLibs\armeabi-v7a\libopencv_java3.so"/></source><source path="C:\Android\OpenCVwithUVC\app\src\main\libs"/></dataSet><dataSet config="debug"><source path="C:\Android\OpenCVwithUVC\app\src\debug\jniLibs"/></dataSet></merger>

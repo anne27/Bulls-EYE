@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\0d0c15b7647bb312c54e3df5534474810b64bc1d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_b33b53931c41a1802bcb125dc0628cbbf8b205d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\8e0e0ff35f11b0d57d0e963aeeb3813f3cb476d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_560ad307055b8e0bd9d0b0c4592bdc0e130f14bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\c7ba8a13209557ca7cee9d1d3f1e5fac75b34056\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_40b9dba21b1e3152f720f8cbd3e9f0c3fe93229d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\cd4158b38897e205e866296093b1f425aefcfb25\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_be5369025a3483dd676b811f0e45eea6d71d0e2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\bb4914434beff4aa29667646b55e9432a2e251f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_e10be11680f87b368af87a7d49cb25de575f94b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\b7ccdee22c32b2ccea587c319507b2f984d9761d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_7e35283aef6b894c252888da0f55b9fc4d65f20a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\OpenCVwithUVC\opencv\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1a650071d50d9dac4c921fd8dee014c4105164a">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_92264c08c99b7d273e40f3642fa65e4ea2fd0c8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\15616cca8a352fb28fe2ae710080e997c27dea36\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_c84a67b66a9c2155859428dbbe3b49e687a12e04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya-Uberoi\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_5954bbb9eaa890c26f06f742a67a688810e7d41c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\9f354c9dba34718193261c230bba2daf0a0e9685\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_4e65211cc5565d55d401a38ddca967294c44a3ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\998a310eaf263fc9d74fd278e6326c8637b3725f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_e56cc72fbd94e883454c221d586463fd224d1427.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\26908ce87e23a1dd84e35af9ce744aa9809a9461\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_0baf0b2a2a4380ec0e383e1af054732d7cdb60b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\a01e9144d14f4c95af609127da9db0eaefceb0be\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_9139c959dcd0a4164336c3ad557f3add10dee00b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anannya Uberoi\.android\build-cache\aee430d4b400eb06250a922532eb609123f6eae5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_f746796d3b909785e9ce9484d7299d969e1079b1.jar" />
+    </item>
+
+</items>

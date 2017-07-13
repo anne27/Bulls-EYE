@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="usbCameraCommon-release-unspecified">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/caac0e8fa33a1204e616a2805e9ceac924741719/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/caac0e8fa33a1204e616a2805e9ceac924741719/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\capture.png",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\drawable-hdpi\\capture.png"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\save1.png",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\drawable-hdpi\\save1.png"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\capture2.png",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\drawable-hdpi\\capture2.png"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\newpatient.png",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\drawable-hdpi\\newpatient.png"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cameraicon.png",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\drawable-hdpi\\cameraicon.png"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\existing.png",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\drawable-hdpi\\existing.png"
+    }
+]
