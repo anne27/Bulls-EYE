@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Android\OpenCVwithUVC\opencv\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c5969b03d0459a7fc9966caf5b027ebb9e6b146">
+        <dex dex="C:\Android\OpenCVwithUVC\app\build\intermediates\pre-dexed\debug\classes_92264c08c99b7d273e40f3642fa65e4ea2fd0c8c.jar" />
+    </item>
+
+</items>

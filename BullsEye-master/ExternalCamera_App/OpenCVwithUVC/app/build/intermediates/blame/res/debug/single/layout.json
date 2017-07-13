@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
+        "source": "C:\\Users\\Anannya Uberoi\\.android\\build-cache\\af34778864adfd74649deaa290207927496f2e40\\output\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\seekbar_preference.xml",
+        "source": "C:\\Users\\Anannya Uberoi\\.android\\build-cache\\33201dd5b4033318d5af62accd3675f42a2f2154\\output\\res\\layout\\seekbar_preference.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serverupload.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\layout\\activity_serverupload.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_success.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\layout\\activity_success.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\layout\\activity_first.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_picker.xml",
+        "source": "C:\\Users\\Anannya Uberoi\\.android\\build-cache\\33201dd5b4033318d5af62accd3675f42a2f2154\\output\\res\\layout\\item_picker.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\layout\\activity_demo.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_bluetooth_device_info.xml",
+        "source": "C:\\Users\\Anannya Uberoi\\.android\\build-cache\\33201dd5b4033318d5af62accd3675f42a2f2154\\output\\res\\layout\\list_item_bluetooth_device_info.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_frame_selector.xml",
+        "source": "C:\\Users\\Anannya Uberoi\\.android\\build-cache\\33201dd5b4033318d5af62accd3675f42a2f2154\\output\\res\\layout\\view_frame_selector.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\color_picker_dialog.xml",
+        "source": "C:\\Users\\Anannya Uberoi\\.android\\build-cache\\33201dd5b4033318d5af62accd3675f42a2f2154\\output\\res\\layout\\color_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\color_picker.xml",
+        "source": "C:\\Users\\Anannya Uberoi\\.android\\build-cache\\33201dd5b4033318d5af62accd3675f42a2f2154\\output\\res\\layout\\color_picker.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_details.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_camera.xml",
+        "source": "C:\\Users\\Anannya Uberoi\\.android\\build-cache\\af34778864adfd74649deaa290207927496f2e40\\output\\res\\layout\\dialog_camera.xml"
+    },
+    {
+        "merged": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mainn.xml",
+        "source": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\res\\layout\\activity_mainn.xml"
+    }
+]
