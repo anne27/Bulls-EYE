@@ -1,0 +1,37 @@
+{
+  "buildFiles": [
+    "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Anannya-Uberoi\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Android\\OpenCVwithUVC\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Android\\OpenCVwithUVC\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dC:/Android/OpenCVwithUVC/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "LibsCV-release-armeabi": {
+      "buildCommand": "C:\\Users\\Anannya-Uberoi\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Android\\OpenCVwithUVC\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Android\\OpenCVwithUVC\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dC:/Android/OpenCVwithUVC/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Android/OpenCVwithUVC/app/build/intermediates/ndkBuild/release/obj/local/armeabi/libLibsCV.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "LibsCV",
+      "files": [
+        {
+          "src": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\jni\\com_serenegiant_opencvwithuvc_DetectIris.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv5te-none-linux-androideabi18\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/OpenCV-android-sdk/sdk/native/jni/include/opencv\" \"-IC:/OpenCV-android-sdk/sdk/native/jni/include\" \"-IC:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include\" \"-IC:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Android/OpenCVwithUVC/app/src/main/jni\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-fPIC\" \"-DANDROID\" \"-fsigned-char\" \"-D__ANDROID_API__\u003d18\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\Android\\OpenCVwithUVC\\app\\src\\main\\jni\\com_serenegiant_opencvwithuvc_cvClass.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv5te-none-linux-androideabi18\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/OpenCV-android-sdk/sdk/native/jni/include/opencv\" \"-IC:/OpenCV-android-sdk/sdk/native/jni/include\" \"-IC:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include\" \"-IC:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Android/OpenCVwithUVC/app/src/main/jni\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-fPIC\" \"-DANDROID\" \"-fsigned-char\" \"-D__ANDROID_API__\u003d18\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/Anannya-Uberoi/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "C:\\Android\\OpenCVwithUVC\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi\\libLibsCV.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cppCompilerExecutable": "C:\\Users\\Anannya-Uberoi\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,2 +1,0 @@
-include ':app', ':opencv'
-include ':openCVLibrary320'

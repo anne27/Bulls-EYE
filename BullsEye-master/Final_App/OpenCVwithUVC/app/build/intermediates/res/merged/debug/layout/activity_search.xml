@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/WHITE"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MR Number"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/BLACK" />
+
+    <EditText
+        android:textColorHint="@color/primary_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/BLACK"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_mr_number_search"
+        android:id="@+id/searchMRText"
+        android:layout_marginTop="10dp">
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:background="@color/WHITE"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/searchMRBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:background="#D3D3D3"
+            android:textColor="@color/accent" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="#D3D3D3"
+            android:layout_weight="0.09"
+            android:textColor="@color/accent"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
