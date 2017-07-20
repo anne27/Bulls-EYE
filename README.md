@@ -21,7 +21,7 @@ These are re-written into the dummy Android app in native C++ language and inter
 
 The Android app is complete with SQL statements, image storage, image processing and server activity. The launcher activity is ```FirstActivity```. The external camera used for the second prototype can be interfaced with the phone using an OTG cable and the code written into ```MainActivity```.
 
-*Changes*
+**Changes**
 * Added OpenCV code.
 * Added permission prompt.
 * Perfected SQL checks.
@@ -30,10 +30,10 @@ The Android app is complete with SQL statements, image storage, image processing
 * Removed crashes.
 * Modified layouts and design.
 
-*Dependencies*
+**Dependencies**
 
 * usbCameraCommon
 * libuvccamera
 * opencv
 
-*Screenshots*
+**Screenshots**
